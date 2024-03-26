@@ -1,0 +1,100 @@
+2024-03-26 10:16:15 [INFO ] [j.c.a.a.ApiDemoApplicationTests] - Starting ApiDemoApplicationTests on x1makun with PID 5116 (started by bizma in C:\Github\java-challenge)
+2024-03-26 10:16:15 [INFO ] [j.c.a.a.ApiDemoApplicationTests] - The following profiles are active: dev
+2024-03-26 10:16:17 [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2024-03-26 10:16:18 [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2024-03-26 10:16:18 [INFO ] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2024-03-26 10:16:18 [INFO ] [org.hibernate.Version] - HHH000412: Hibernate Core {5.3.9.Final}
+2024-03-26 10:16:18 [INFO ] [org.hibernate.cfg.Environment] - HHH000206: hibernate.properties not found
+2024-03-26 10:16:18 [INFO ] [o.h.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-03-26 10:16:18 [INFO ] [org.hibernate.dialect.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-03-26 10:16:19 [INFO ] [o.hibernate.tuple.PojoInstantiator] - HHH000182: No default (no-argument) constructor for class: jp.co.axa.apidemo.entities.Employee (class must be instantiated by Interceptor)
+2024-03-26 10:16:19 [INFO ] [o.h.t.s.internal.SchemaCreatorImpl] - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@782ac148'
+2024-03-26 10:16:21 [INFO ] [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2024-03-26 10:16:23 [INFO ] [s.d.s.w.p.DocumentationPluginsBootstrapper] - Context refreshed
+2024-03-26 10:16:23 [INFO ] [s.d.s.w.p.DocumentationPluginsBootstrapper] - Found 1 custom documentation plugin(s)
+2024-03-26 10:16:23 [INFO ] [s.d.s.w.s.ApiListingReferenceScanner] - Scanning for api listing references
+2024-03-26 10:16:23 [INFO ] [j.c.a.a.ApiDemoApplicationTests] - Started ApiDemoApplicationTests in 8.492 seconds (JVM running for 9.658)
+2024-03-26 10:16:23 [INFO ] [j.c.a.a.c.EmployeeController] - Deleting information of the specified employee.
+2024-03-26 10:16:23 [INFO ] [j.c.a.a.c.EmployeeController] - Employee with ID 1 has been deleted successfully.
+2024-03-26 10:16:23 [INFO ] [j.c.a.a.c.EmployeeController] - Retrieving information of the specified employee.
+2024-03-26 10:16:23 [INFO ] [j.c.a.a.c.EmployeeController] - Employee with ID 1 has been updated successfully.
+2024-03-26 10:16:24 [ERROR] [j.c.a.a.c.EmployeeController] - Failed to update employee with ID 1: Failed to get employee
+2024-03-26 10:16:24 [INFO ] [j.c.a.a.c.EmployeeController] - Creating a new employee information.
+2024-03-26 10:16:24 [ERROR] [j.c.a.a.c.EmployeeController] - Failed to save employee: Failed to save employee
+2024-03-26 10:16:24 [INFO ] [j.c.a.a.c.EmployeeController] - Retrieving information of the specified employee.
+2024-03-26 10:16:24 [INFO ] [j.c.a.a.c.EmployeeController] - Deleting information of the specified employee.
+2024-03-26 10:16:24 [ERROR] [j.c.a.a.c.EmployeeController] - Failed to delete employee with ID 1: Failed to delete employee
+2024-03-26 10:16:24 [INFO ] [j.c.a.a.c.EmployeeController] - Creating a new employee information.
+2024-03-26 10:16:24 [INFO ] [j.c.a.a.c.EmployeeController] - New employee information has been saved successfully.
+2024-03-26 10:16:24 [INFO ] [o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-03-26 10:16:24 [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2024-03-26 10:16:24 [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2024-03-26 10:21:05 [INFO ] [j.c.a.a.ApiDemoApplicationTests] - Starting ApiDemoApplicationTests on x1makun with PID 15392 (started by bizma in C:\Github\java-challenge)
+2024-03-26 10:21:05 [INFO ] [j.c.a.a.ApiDemoApplicationTests] - The following profiles are active: dev
+2024-03-26 10:21:07 [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2024-03-26 10:21:07 [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2024-03-26 10:21:07 [INFO ] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2024-03-26 10:21:08 [INFO ] [org.hibernate.Version] - HHH000412: Hibernate Core {5.3.9.Final}
+2024-03-26 10:21:08 [INFO ] [org.hibernate.cfg.Environment] - HHH000206: hibernate.properties not found
+2024-03-26 10:21:08 [INFO ] [o.h.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-03-26 10:21:08 [INFO ] [org.hibernate.dialect.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-03-26 10:21:08 [INFO ] [o.hibernate.tuple.PojoInstantiator] - HHH000182: No default (no-argument) constructor for class: jp.co.axa.apidemo.entities.Employee (class must be instantiated by Interceptor)
+2024-03-26 10:21:09 [INFO ] [o.h.t.s.internal.SchemaCreatorImpl] - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@61d2f267'
+2024-03-26 10:21:10 [INFO ] [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2024-03-26 10:21:12 [INFO ] [s.d.s.w.p.DocumentationPluginsBootstrapper] - Context refreshed
+2024-03-26 10:21:12 [INFO ] [s.d.s.w.p.DocumentationPluginsBootstrapper] - Found 1 custom documentation plugin(s)
+2024-03-26 10:21:12 [INFO ] [s.d.s.w.s.ApiListingReferenceScanner] - Scanning for api listing references
+2024-03-26 10:21:12 [INFO ] [j.c.a.a.ApiDemoApplicationTests] - Started ApiDemoApplicationTests in 7.553 seconds (JVM running for 8.521)
+2024-03-26 10:21:13 [INFO ] [j.c.a.a.c.EmployeeController] - Deleting information of the specified employee.
+2024-03-26 10:21:13 [INFO ] [j.c.a.a.c.EmployeeController] - Employee with ID 1 has been deleted successfully.
+2024-03-26 10:21:13 [INFO ] [j.c.a.a.c.EmployeeController] - Retrieving information of the specified employee.
+2024-03-26 10:21:13 [INFO ] [j.c.a.a.c.EmployeeController] - Employee with ID 1 has been updated successfully.
+2024-03-26 10:21:13 [ERROR] [j.c.a.a.c.EmployeeController] - Failed to update employee with ID 1: Failed to get employee
+2024-03-26 10:21:13 [INFO ] [j.c.a.a.c.EmployeeController] - Creating a new employee information.
+2024-03-26 10:21:13 [ERROR] [j.c.a.a.c.EmployeeController] - Failed to save employee: Failed to save employee
+2024-03-26 10:21:13 [INFO ] [j.c.a.a.c.EmployeeController] - Retrieving information of the specified employee.
+2024-03-26 10:21:13 [INFO ] [j.c.a.a.c.EmployeeController] - Deleting information of the specified employee.
+2024-03-26 10:21:13 [ERROR] [j.c.a.a.c.EmployeeController] - Failed to delete employee with ID 1: Failed to delete employee
+2024-03-26 10:21:13 [INFO ] [j.c.a.a.c.EmployeeController] - Creating a new employee information.
+2024-03-26 10:21:13 [INFO ] [j.c.a.a.c.EmployeeController] - New employee information has been saved successfully.
+2024-03-26 10:21:13 [INFO ] [o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-03-26 10:21:13 [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2024-03-26 10:21:13 [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2024-03-26 10:33:15 [INFO ] [j.c.a.a.ApiDemoApplicationTests] - Starting ApiDemoApplicationTests on x1makun with PID 9672 (started by bizma in C:\Github\java-challenge)
+2024-03-26 10:33:15 [INFO ] [j.c.a.a.ApiDemoApplicationTests] - The following profiles are active: dev
+2024-03-26 10:33:18 [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2024-03-26 10:33:18 [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2024-03-26 10:33:18 [INFO ] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2024-03-26 10:33:19 [INFO ] [org.hibernate.Version] - HHH000412: Hibernate Core {5.3.9.Final}
+2024-03-26 10:33:19 [INFO ] [org.hibernate.cfg.Environment] - HHH000206: hibernate.properties not found
+2024-03-26 10:33:19 [INFO ] [o.h.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-03-26 10:33:19 [INFO ] [org.hibernate.dialect.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-03-26 10:33:19 [INFO ] [o.hibernate.tuple.PojoInstantiator] - HHH000182: No default (no-argument) constructor for class: jp.co.axa.apidemo.entities.Employee (class must be instantiated by Interceptor)
+2024-03-26 10:33:20 [INFO ] [o.h.t.s.internal.SchemaCreatorImpl] - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@12365bd8'
+2024-03-26 10:33:22 [INFO ] [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2024-03-26 10:33:23 [INFO ] [s.d.s.w.p.DocumentationPluginsBootstrapper] - Context refreshed
+2024-03-26 10:33:23 [INFO ] [s.d.s.w.p.DocumentationPluginsBootstrapper] - Found 1 custom documentation plugin(s)
+2024-03-26 10:33:23 [INFO ] [s.d.s.w.s.ApiListingReferenceScanner] - Scanning for api listing references
+2024-03-26 10:33:23 [INFO ] [j.c.a.a.ApiDemoApplicationTests] - Started ApiDemoApplicationTests in 8.35 seconds (JVM running for 9.73)
+2024-03-26 10:33:23 [INFO ] [j.c.a.a.c.EmployeeController] - Deleting information of the specified employee.
+2024-03-26 10:33:23 [INFO ] [j.c.a.a.c.EmployeeController] - Employee with ID 1 has been deleted successfully.
+2024-03-26 10:33:23 [INFO ] [j.c.a.a.c.EmployeeController] - Retrieving information of the specified employee.
+2024-03-26 10:33:23 [INFO ] [j.c.a.a.c.EmployeeController] - Employee with ID 1 has been updated successfully.
+2024-03-26 10:33:23 [INFO ] [j.c.a.a.c.EmployeeController] - Retrieving a list of all employees.
+2024-03-26 10:33:23 [ERROR] [j.c.a.a.c.EmployeeController] - Failed to update employee with ID 1: Failed to get employee
+2024-03-26 10:33:23 [INFO ] [j.c.a.a.c.EmployeeController] - Creating a new employee information.
+2024-03-26 10:33:23 [ERROR] [j.c.a.a.c.EmployeeController] - Failed to save employee: Failed to save employee
+2024-03-26 10:33:23 [INFO ] [j.c.a.a.c.EmployeeController] - Retrieving information of the specified employee.
+2024-03-26 10:33:23 [INFO ] [j.c.a.a.c.EmployeeController] - Deleting information of the specified employee.
+2024-03-26 10:33:23 [ERROR] [j.c.a.a.c.EmployeeController] - Failed to delete employee with ID 1: Failed to delete employee
+2024-03-26 10:33:23 [INFO ] [j.c.a.a.c.EmployeeController] - Creating a new employee information.
+2024-03-26 10:33:23 [INFO ] [j.c.a.a.c.EmployeeController] - New employee information has been saved successfully.
+2024-03-26 10:33:23 [INFO ] [o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-03-26 10:33:23 [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2024-03-26 10:33:23 [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
